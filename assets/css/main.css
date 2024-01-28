@@ -1488,6 +1488,10 @@ input, select, textarea {
 			transform: translateY(4em);
 		}
 
+		#header navbar {
+			position: absolute;
+		}
+
 		#header h1 {
 			color: #a0a0a1;
 			display: block;
@@ -2046,6 +2050,24 @@ input, select, textarea {
 	}
 
 		#footer .copyright a {
+			color: inherit;
+		}
+
+	#about .copyright {
+		color: #505051;
+		font-size: 0.9em;
+	}
+
+		#about .copyright a {
+			color: inherit;
+		}
+
+	#concorsi .copyright {
+		color: #505051;
+		font-size: 0.9em;
+	}
+
+		#concorsi .copyright a {
 			color: inherit;
 		}
 
